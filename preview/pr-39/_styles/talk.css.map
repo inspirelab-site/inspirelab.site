@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["talk.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA","sourcesContent":[".talk {\n    display: inline-flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    margin: 20px 0;\n    padding: 20px;\n    box-shadow: var(--shadow);\n}\n"],"file":"talk.css"}

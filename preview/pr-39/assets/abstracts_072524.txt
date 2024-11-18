@@ -1,0 +1,162 @@
+TI  - What are the most talkative brain regions?
+DP  - 2016 08 01
+AU  - Xu,Nan,
+AU  - Doerschuk,Peter,C
+AU  - Spreng,R Nathan,
+CT  - Annual International Conference Of The IEEE Engineering In Medicine And Biology Society
+CY  - 2016 08 01
+
+TI  - Investigation of spatiotemporal functional interactivity among large-scale brain networks
+DP  - 2020 06 23
+AU  - Xu,Nan,
+AU  - Spreng,R Nathan,
+AU  - Keilholz,Shella,D
+CT  - Organization for Human Brain Mapping 2020 Annual Meeting
+CY  - 2020 06 23
+
+TI  - Directed interactivity of large-scale brain networks: Introducing a new method for estimating brain connectivity MRI.
+DP  - 2014 04 07
+AU  - Xu,Nan,
+AU  - Spreng,R Nathan,
+AU  - Doerschuk,Peter,C
+CT  - Cognitive Neuroscience Society 2014 Annual Meeting
+CY  - 2014 04 07
+CL  - Boston
+CL  - MA
+CL  - USA
+
+TI  - Quasiperiodic patterns and BOLD response entrained by visual stimulation in the human brain.
+DP  - 2021 06
+AU  - Xu,Nan,
+AU  - Smith,Derek,M
+AU  - Jeno,George,
+AU  - Seeburger,Dolly,T
+AU  - Schumacher,Eric,H
+AU  - Keilholz,Shella,D
+CT  - Organization for Human Brain Mapping 2021 Annual Meeting
+CY  - 2021 05 30
+
+TI  - Investigating the relationship between sustained attention and quasi-periodic brain activity patterns with the psychomotor vigilance task.
+DP  - 2022 04
+AU  - Lee,Yunji,
+AU  - Seeburger,Dolly,T
+AU  - Dhawan,Sakshi,
+AU  - Nguyen,Tiffany,
+AU  - Xu,Nan,
+AU  - Ma,Marcus,
+AU  - Abbas,Anzar,
+AU  - Majeed,Waqas,
+AU  - Thompson,Garth,
+AU  - Keilholz,Shella,D
+AU  - Schumacher,Eric,H
+CT  - Cognitive Neuroscience Society 2022 Annual Meeting
+CY  - 2022 04 23
+
+TI  - Identifying the neural mechanisms of zone state performance using time-varying functional connectivity methods.
+DP  - 2022 04 23
+AU  - Seeburger,Dolly,T
+AU  - Xu,Nan,
+AU  - Godwin,C,
+AU  - Ma,Marcus,
+AU  - Keilholz,Shella,D
+AU  - Schumacher,Eric,H
+CT  - Cognitive Neuroscience Society 2022 Annual Meeting
+CY  - 2022 04 23
+
+TI  - Dynamic spatiotemporal interactions in vestibular networks affected by concussive syndromes
+DP  - 2022 06 19
+AU  - Xu,Nan,
+AU  - Smith,Jeremy,
+AU  - Allen,Jason,
+AU  - Keilholz,Shella,
+CT  - Organization for Human Brain Mapping 2022 Annual Meeting
+CY  - 2022 06 19
+CL  - Glasgow
+CL  - Scotland
+
+TI  - Distribution of large-scale spatiotemporal patterns within and across individuals
+DP  - 2023 07 22
+AU  - Bolt,Taylor,
+AU  - Xu,Nan,
+AU  - Daley,Laren,
+AU  - LaGrow,T.J.,
+AU  - Pan,W-J,
+AU  - Schumacher,Eric,
+AU  - Keilholz,Shella,
+CT  - Organization for Human Brain Mapping 2023 Annual Meeting
+CY  - 2023 07 22
+CL  - Montreal
+CL  - Québec
+CL  - Canada
+
+TI  - The interaction between visual stimulation and intrinsic infraslow whole brain activity in humans
+DP  - 2023 07 22
+AU  - Xu,Nan,
+AU  - Smith,Derek,
+AU  - Geno,George,
+AU  - Seeburger,Dolly,T
+AU  - Schumacher,Eric,H
+AU  - Keilholz,Shella,D
+CT  - Organization for Human Brain Mapping 2023 Annual Meeting
+CY  - 2023 07 22
+CL  - Montreal
+CL  - Québec
+CL  - Canada
+
+TI  - ``Hyperconnected'' Vestibular State in Subacute and Chronic Post-Concussive Vestibular Dysfunction Using Dynamic Whole Brain Functional Connectivity Analysis
+DP  - 2023
+AU  - Trofimova,Anna,
+AU  - Smith,Jeremy,
+AU  - Xu,Nan,
+AU  - Keilholz,Shella,
+AU  - Gore,Russell,
+AU  - Allen,Jason,W
+CT  - The 16th Annual Meeting of the American Society of Functional Neuroradiology
+CY  - 2023 10 07
+CL  - Boston
+CL  - MA
+CL  - USA
+
+TI  - The effects of locus coeruleus stimulation on quasi-periodic patterns in rats.
+DP  - 2024 06 23
+AU  - Anumba,Nmachi,
+AU  - Keilberman,Michael,A
+AU  - Pan,Wenju,
+AU  - Marriott,Alexia,
+AU  - Xu,Nan,
+AU  - Weinshenker,David,
+AU  - Keilholz,Shella,
+CT  - Organization for Human Brain Mapping 2024 Annual Meeting
+CY  - 2024 06 23
+CL  - Seoul
+CL  - Korea
+
+TI  - Modeling and Validation of Dynamic Causal Interactions in Functional Brain Network.
+DP  - 2024 06 18
+AU  - Xu,Nan,
+AU  - Zhang,Xiaodi,
+AU  - Pan,Wenju,
+AU  - Smith,Jeremy,L
+AU  - Allen,Jason,W
+AU  - Calhoun,Vince,D
+AU  - Keilholz,Shella,D
+CT  - 10th Annual BRAIN Initiative Conference
+CY  - 2024 06 18
+CL  - Washington
+CL  - DC
+CL  - USA
+
+TI  - Time-varying causal interactions in the functional brain networks: Modeling and Validation
+DP  - 2024 06 23
+AU  - Xu,Nan,
+AU  - Zhang,Xiaodi,
+AU  - Pan,Wenju,
+AU  - Smith,Jeremy,L
+AU  - Allen,Jason,W
+AU  - Calhoun,Vince,D
+AU  - Keilholz,Shella,D
+CT  - Organization for Human Brain Mapping 2024 Annual Meeting
+CY  - 2024 06 23
+CL  - Seoul
+CL  - Korea
+

@@ -1,0 +1,10 @@
+.talk {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+/*# sourceMappingURL=talk.css.map */
