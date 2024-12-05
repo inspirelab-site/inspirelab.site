@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: initial;
+  justify-content: left;
+  padding: 0rem 0.2rem;
+  margin-bottom: 0.5rem;
+  list-style: none;
+  background-color: #fff;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.2rem;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.2rem;
+  color: #6c757d;
+  content: "·";
+  font-weight: bold;
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: underline;
+}
+.breadcrumb-item + .breadcrumb-item:hover::before {
+  text-decoration: none;
+}
+.breadcrumb-item.active {
+  color: #6c757d;
+}
+
+/*# sourceMappingURL=membernew.css.map */
