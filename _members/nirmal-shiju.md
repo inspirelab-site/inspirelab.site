@@ -1,11 +1,20 @@
 ---
 name: Nirmal Shiju
-image: images/photo.jpg
-description: IT Research Technician (Jan 2025--)
+image: team/images/nirmal-shiju.jpg
 role: programmer
+description: "IT Research Technician"
+start: 2025
+affiliation: "Computer Science, Mathematics"
+brief-desc:  "University of Maryland, College Park"
 group: member
-email: nshiju@terpmail.umd.edu
-#  github: xxx
-#  twitter: xx
+links:
+  email: nshiju@umd.edu
+  linkedin: nirmalshiju
+  # google-scholar: 
+  # orcid: 
+  github: NirmalShiju
+  # twitter:   
+  # cv: 
+  # faculty-page: 
 ---
-We are currently seeking a part-time or full-time CS/IT research technician with expertise in coding and system management. The ideal candidate will be responsible for assisting in the setup, development, and maintenance of imaging data, computing, and software systems on our servers. Additionally, this position will involve providing technical assistance in algorithm development to support various research projects. Strong problem-solving skills and the ability to work collaboratively with a diverse research team are essential for success in this role. An undergraduate or post-bachelor student in Computer Science or a related field is required. Wage will be commensurate with experience. If interested, please email me with your resume and transcript.
+Hi! My name is Nirmal, and I am an undergrad at the University of Maryland studying Computer Science and Math. I joined INSPIRE Lab since Jan 2025 as a IT research technician. I enjoy solving puzzles and want to use my knowledge of software engineering to tackle real-world problems. In my spare time, I am a passionate badminton player and enjoy hiking and other outdoor activities. 

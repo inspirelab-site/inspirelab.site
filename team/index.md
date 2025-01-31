@@ -12,15 +12,19 @@ We are an interdisciplinary team of researchers passionate about innovative, rig
 {% include list.html data="members" component="portrait" filters="role: pi" %}
 {% endcapture %}
 
-{% include float.html content=floatcontent %}
+{% include float.html content=floatcontent flip=false %}
 {% assign member = site.members | where: "slug", "nan-xu" | first %}
 Dr. Nan Xu directs Imaging- and Neuro-computations for Precision Informatics Research (INSPIRE) Lab. With a strong foundation in computational science, her research spans statistical and machine learning, applied mathematics, neuroscience, and various biomedical applications. Her current work focuses on developing advanced computational models and analyses of functional neuroimaging data to gain new insights into brain function, neurological diseases, and broader informatics applications.
 
 Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathematics from the University of Rochester in 2011. She completed her M.Sc. (2015) and Ph.D. (2017) in Electrical and Computer Engineering at Cornell University, with minors in both Applied Mathematics and Cognitive Neuroscience. Her interdisciplinary postdoctoral experience includes a fellowship in Chemical and Biomolecular Engineering at Georgia Tech (2017-2018), a visiting scientist position at the McGovern Brain Institute at MIT (2022), and a postdoctoral fellowship in Biomedical Engineering at Georgia Tech and Emory University (2019-2024). Her research is currently supported by an NIH BRAIN K99/R00 award. <a href="/members/nan-xu.html">[Learn more...]</a>
 
-{% include section.html%}
-## Openings!
-{% include list.html data="members" component="portrait" filters="group: hiring" %}
+{% include section.html %}
+## Team Members
+{% include list.html data="members" component="portrait" filters="group: member, role: manager" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: programmer" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: postdoc" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: phd" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: undergrad" %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
@@ -43,6 +47,8 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 - Sam Larson (Independent Collaborator) Software Engineer @ YipitData
 
 {% include section.html %}
+
+
 ## Funding
 {% capture content %}
 [![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)

@@ -42,6 +42,16 @@
       </span>
     {% endif %}
 
+    {% if member.start and member.end %}
+      <span class="portrait-tenure">
+        ({{ member.start }} - {{ member.end }})
+      </span>
+    {% elsif member.start %}
+      <span class="portrait-tenure">
+        ({{ member.start }} - )
+      </span>
+    {% endif %}
+
     {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation}}

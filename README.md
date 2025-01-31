@@ -1,7 +1,7 @@
 
 # INSPIRE Lab Website
 
-Visit **[www.inspirelab.site](http://www.inspirelab.site)** 🚀
+Visit **[inspirelab.umd.edu](http://inspirelab.umd.edu)** 🚀
 
 
 
