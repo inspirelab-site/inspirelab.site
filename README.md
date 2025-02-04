@@ -4,7 +4,6 @@
 Visit **[www.inspirelab.site](http://www.inspirelab.site)** 🚀
 
 
-
 ## Lab members actions
 
 Lab members, please do any/all of the following!

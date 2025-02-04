@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.softx.2025.102067
+  title: 'QPPLab: A generally applicable software package for detecting, analyzing,
+    and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
+    activity'
+  authors:
+  - Nan Xu
+  - Behnaz Yousefi
+  - Nmachi Anumba
+  - Theodore J. LaGrow
+  - Xiaodi Zhang
+  - Shella Keilholz
+  publisher: SoftwareX
+  date: '2025-02-01'
+  link: https://doi.org/g83xt7
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/imnanxu/QPPLab
+  tags:
+  - journal
+  - brain dynamics
 - id: doi:10.1162/imag_a_00314
   title: "The effects of locus coeruleus optogenetic stimulation on global\n     \
     \               spatiotemporal patterns in rats"
@@ -95,16 +121,8 @@
   link: https://doi.org/gt44nd
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  buttons:
-  - type: source
-    text: code
-    link: https://github.com/imnanxu/QPPLab
-  tags:
-  - preprint
-  - brain dynamics
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/mrm.29824
   title: "Spatial and Spectral Components of the <scp>BOLD</scp> Global Signal in\
     \ Rat <scp>Resting\u2010State</scp> Functional <scp>MRI</scp>"

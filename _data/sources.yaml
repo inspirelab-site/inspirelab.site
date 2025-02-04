@@ -30,15 +30,15 @@
     - brain dynamics
     - cross-species
 
-#Xu-SoftwareX-2024
-- id: doi:10.1101/2023.09.25.559086
+#Xu-SoftwareX-2025
+- id: doi:10.1016/j.softx.2025.102067
   type: journal
   buttons:
     - type: source
       text: code
       link: https://github.com/imnanxu/QPPLab
   tags:
-    - preprint
+    - journal
     - brain dynamics
 
 #Seeburger-CABN-2024
