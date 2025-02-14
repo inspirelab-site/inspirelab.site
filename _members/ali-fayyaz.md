@@ -2,7 +2,7 @@
 name: Ali Fayyaz
 image: team/images/ali-fayyaz.jpg
 role: phd
-description: "Graduate Researcher"
+description: "PhD Rotational Student | Graduate Researcher"
 start: 2025
 affiliation: "Biophysics"
 brief-desc:  "University of Maryland, College Park"
