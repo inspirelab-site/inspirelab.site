@@ -2,11 +2,11 @@
 name: Ali Fayyaz
 image: team/images/ali-fayyaz.jpg
 role: phd
-description: "PhD Rotational Student | Graduate Researcher"
-start: 2025
+description: "Former Members | PhD Rotational Student"
+start: Feb-Apr 2025
 affiliation: "Biophysics"
 brief-desc:  "University of Maryland, College Park"
-group: member
+group: former
 links:
   email: af12@umd.edu
   linkedin: a-fayyaz
@@ -17,4 +17,4 @@ links:
   # cv: 
   # faculty-page: 
 ---
-Ali is a first-year graduate student in Biophysics at the University of Maryland, College Park. He studied physics in undergrad, during which time he pivoted toward computational biophysics and worked on applying reinforcement learning to a model of a microswimmer in low-Reylonds. He is interested in computational neuroscience and joined the INSPIRE Lab in Feb 2025. In his free time, he enjoys good music, movies, and exploring new places.
+Ali was a first-year graduate student in Biophysics at the University of Maryland, College Park. He studied physics as an undergraduate, where he developed an interest in computational biophysics and worked on applying reinforcement learning to a model of a microswimmer in low-Reynolds-number environments. Drawn to computational neuroscience, he joined the INSPIRE Lab as a PhD rotational student from February to April 2025. Outside of academics, Ali enjoys music, movies, and exploring new places.
