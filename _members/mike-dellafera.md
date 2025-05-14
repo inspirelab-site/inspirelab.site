@@ -3,7 +3,7 @@ name: Mike DellaFera
 image: team/images/mike-dellafera.png
 role: manager
 description: "Lab Manager"
-start: 2025
+start: Jan 2025
 affiliation: "Physiology and Neurobiology, Psychology"
 brief-desc:  "University of Maryland, College Park"
 group: member
