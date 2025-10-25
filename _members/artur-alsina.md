@@ -3,7 +3,7 @@ name: Artur Alsina
 image: team/images/artur-alsina.jpg
 role: masters
 description: "Graduate Researcher | Master's Student"
-start: Apr 2025
+start: Feb 2025
 end: May 2025
 affiliation: "Electrical and Computer Engineering"
 post: "Now SDE @ Amazon"
