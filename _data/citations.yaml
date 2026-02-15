@@ -124,26 +124,6 @@
   tags:
   - journal
   - brain dynamics
-- id: doi:10.1101/2023.09.25.559086
-  title: 'QPPLab: A generally applicable software package for detecting, analyzing,
-    and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
-    activity'
-  authors:
-  - Nan Xu
-  - Behnaz Yousefi
-  - Nmachi Anumba
-  - Theodore J. LaGrow
-  - Xiaodi Zhang
-  - Shella Keilholz
-  publisher: openRxiv
-  pmid: '37808706'
-  pmcid: PMC10557593
-  date: '2023-09-25'
-  link: https://doi.org/gt44nd
-  orcid: 0000-0002-3900-3220
-  nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1002/mrm.29824
   title: "Spatial and Spectral Components of the\n                    <scp>BOLD</scp>\n\
     \                    Global Signal in Rat\n                    <scp>Resting\u2010\
@@ -605,6 +585,25 @@
   - conference
   - causal interactions
   - modeling
+- id: 10.31234/osf.io/qzv47_v1
+  title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
+    Network Interactions
+  authors:
+  - Dolly Tan Seeburger
+  - Jason Tsukahara
+  - ' Nan'
+  - Vishwadeep Ahluwalia
+  - Shella Keilholz
+  - Randall W Engle
+  publisher: Center for Open Science
+  date: '2025-10-02'
+  link: https://doi.org/hbcj4r
+  type: journal
+  tags:
+  - journal
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1002/alz.061608
   title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
     \ TgF344\u2010AD rats"
