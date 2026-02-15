@@ -24,14 +24,29 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 {% include list.html data="members" component="portrait" filters="group: member, role: programmer" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: postdoc" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: phd" %}
+{% include list.html data="members" component="portrait" filters="group: member, role: masters" %}
 {% include list.html data="members" component="portrait" filters="group: member, role: undergrad" %}
+
+<div style="font-size: 1.75em;">
+  {%
+    include button.html
+    link="alumni"
+    text="View Alumni Page"
+    icon="fa-solid fa-arrow-right"
+    flip=false
+    style="bare"
+  %}
+</div>
 
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
 INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.
+- Dr. Nikolas Francis Lab @ University of Maryland, Department of Biology
+- Dr. Anna Li Lab @ University of Maryland, Department of Psychology
+- Dr. Edward Bernat Lab @ University of Maryland, Department of Psychology (Clinical and Cognitive Neuroscience Laboratory)
 - Keilholz MIND Lab @ Gatech-Emory, BME
 - Chuang's Lab @ Queensland Brain Institute
-- Dr. Evelyn Lake group @ Yale School of Medicine, Radiology & Biomedical Imaging
+- Dr. Evelyn Lake Group @ Yale School of Medicine, Radiology & Biomedical Imaging
 - Small Animal MR Facility @ University of Maryland, Brain and Behavior Institute
 - Center for Translational Research in Neuroimaging and Data Science
 - Dr. Jason Allen Group @ Indiana University Medical School, Radiology & Imaging Science; Emory Med School, Radiology
@@ -54,5 +69,7 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields around 
 [![NIH Brain](/images/funders/nih-brain2.jpeg)](https://braininitiative.nih.gov/)
 
 [![UMD BioE](/images/funders/umd-bioe.png)](https://bioe.umd.edu/)
+
+[![UMD BBI](/images/funders/umd-bbi-resized2.png)](https://bbi.umd.edu/)
 {% endcapture %}
 {% include grid.html style="cover" content=content %}

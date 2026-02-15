@@ -1,0 +1,34 @@
+name: Deploy ReadMe
+
+# This action runs on every push to your main branch
+on:
+  push:
+    branches:
+      - main  # Or 'master' if that's your branch name
+
+jobs:
+  prepare-readme:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Check out code
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Step 2: Copy correct README based on repo name
+      - name: Set inspirelab.umd.edu README
+        if: github.repository == 'inspirelab-site/inspirelab.umd.edu'
+        run: cp README.umd.md README.md
+
+      - name: Set inspirelab.site README
+        if: github.repository == 'inspirelab-site/inspirelab.site'
+        run: cp README.site.md README.md
+
+      # Step 3: Commit and push updated README if it has changed
+      - name: Commit and Push if Changed
+        run: |
+          git config user.name "ReadMe Bot"
+          git config user.email "56209241+NirmalShiju@users.noreply.github.com"
+          git add README.md
+          # The '|| exit 0' part prevents an error if there are no changes to commit
+          git commit -m "docs: Update site-specific README" || exit 0
+          git push

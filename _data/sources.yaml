@@ -13,6 +13,24 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Seeburger-PNAS-2026
+- id: 10.31234/osf.io/qzv47_v1
+  type: journal
+  tags:
+    - journal
+    - brain dynamics
+
+#Xu-SoftwareX-2025
+- id: doi:10.1016/j.softx.2025.102067
+  type: journal
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/imnanxu/QPPLab
+  tags:
+    - journal
+    - brain dynamics
+    
 #Anumba-IN-2024
 - id: doi:10.1162/imag_a_00314
   type: journal
@@ -29,17 +47,6 @@
     - journal
     - brain dynamics
     - cross-species
-
-#Xu-SoftwareX-2025
-- id: doi:10.1016/j.softx.2025.102067
-  type: journal
-  buttons:
-    - type: source
-      text: code
-      link: https://github.com/imnanxu/QPPLab
-  tags:
-    - journal
-    - brain dynamics
 
 #Seeburger-CABN-2024
 #Time-varying functional connectivity predicts fluctuations in sustained attention in a serial tapping task.
