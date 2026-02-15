@@ -21,7 +21,11 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
   {% include float.html clear=true %}
 #### Selected Awards & Honors
 {% include bullet-year.html 
-  year="2023 - 27" 
+  year="2026 -" 
+  text="Sigma Xi Scientific Research Honor Society" 
+%}
+{% include bullet-year.html 
+  year="2023 - 28" 
   text="NIH BRAIN K99/R00 Pathway to Independence Award" 
 %}
 {% include bullet-year.html 
