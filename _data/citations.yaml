@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.02.15.706049
+  title: 'Time-Varying Directed Interactions in Functional Brain Networks: Modeling
+    and Validation'
+  authors:
+  - Nan Xu
+  - Xiaodi Zhang
+  - Wen-Ju Pan
+  - Jeremy L Smith
+  - Eric H Schumacher
+  - Jason W Allen
+  - Vince D Calhoun
+  - Shella D Keilholz
+  publisher: openRxiv
+  date: '2026-02-17'
+  link: https://doi.org/hbptzh
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - causal interactions
+  - brain dynamics
+  - neuro disorders
+  - modeling
 - id: doi:10.31234/osf.io/qzv47_v1
   title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
     Network Interactions
@@ -611,6 +637,20 @@
   - neuro disorders
   plugin: sources.py
   file: sources.yaml
+- title: Brain states in simultaneous EEG-fMRI
+  authors:
+  - Linnea Hoheisel
+  - Kavya Rajendran
+  - Edward Bernat
+  - Nan Xu
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting
+  date: '2026-06-14'
+  type: conference
+  tags:
+  - conference
+  - brain dynamics
+  plugin: sources.py
+  file: sources.yaml
 - title: Validation of channel capacity as an effective connectivity measure in fMRI
   authors:
   - Jianan Jian
@@ -626,6 +666,7 @@
   - conference
   - causal interactions
   - brain dynamics
+  - modeling
   plugin: sources.py
   file: sources.yaml
 - title: 'Sliding-window prediction correlation (SWpC): a sensitive approach for detecting
