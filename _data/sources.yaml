@@ -13,6 +13,16 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Xu-SWpC-2026
+- id: doi:10.64898/2026.02.15.706049
+  type: journal
+  tags:
+    - preprint
+    - causal interactions
+    - brain dynamics
+    - neuro disorders
+    - modeling
+
 #Seeburger-PNAS-2026
 - id: doi:10.31234/osf.io/qzv47_v1
   type: journal
@@ -302,7 +312,20 @@
 ##################### Abstracts w/o official ids ################
 ###################################################################
 ###################################################################
-- #id: ohbm2026
+- #id: ohbm2026b
+  title: "Brain states in simultaneous EEG-fMRI"
+  authors:
+    - Linnea Hoheisel
+    - Kavya Rajendran
+    - Edward Bernat
+    - Nan Xu
+  publisher: Organization for Human Brain Mapping 2026 Annual Meeting
+  date: '2026-06-14'
+  type: conference
+  tags:
+    - conference
+    - brain dynamics
+- #id: ohbm2026a
   title: "Validation of channel capacity as an effective connectivity measure in fMRI"
   authors:
     - Jianan Jian
@@ -318,6 +341,7 @@
     - conference
     - causal interactions
     - brain dynamics
+    - modeling
 
 - #id: ohbm2025
   title: "Sliding-window prediction correlation (SWpC): a sensitive approach for detecting task-specific directed functional connectivity dynamics"
