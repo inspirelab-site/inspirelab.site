@@ -25,6 +25,7 @@
   - causal interactions
   - brain dynamics
   - neuro disorders
+  - cross-species
   - modeling
 - id: doi:10.1016/j.softx.2025.102067
   title: 'QPPLab: A generally applicable software package for detecting, analyzing,
@@ -666,6 +667,7 @@
   - conference
   - causal interactions
   - brain dynamics
+  - cross-species
   - modeling
   plugin: sources.py
   file: sources.yaml
