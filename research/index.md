@@ -16,7 +16,7 @@ We work in the interphase of data science and brain science. We develop advanced
 {% include section.html %}
 ### Modeling and Inferences in Causal Interactions among Brain Networks
 {% capture text %}
-Functional brain dynamics, captured through neuroimaging techniques such as fMRI, MEG, and optical imaging, are sensitive indicators of brain disorders, each providing insights at different spatial and temporal scales. However, understanding altered brain interactions requires integrating causal information. To address this, we develop advanced computational methods—including but not limited to, information theory, statistical/machine/deep learning, optimization, and network science—to model dynamic causal interactions. These approaches offer novel insights into the spatiotemporal dynamics of both neurophysiological and cognitive functions.
+Functional brain dynamics, captured through neuroimaging techniques such as fMRI, LFP/EEG, and optical imaging, are sensitive indicators of brain disorders, each providing insights at different spatial and temporal scales. However, understanding altered brain interactions requires integrating causal information. To address this, we develop advanced computational methods—including but not limited to, information theory, statistical/machine/deep learning, optimization, and network science—to model dynamic causal interactions. These approaches offer novel insights into the spatiotemporal dynamics of both neurophysiological and cognitive functions.
 {%
   include button.html
   link="papers/?search=%22tag:%20causal-interactions%22"
