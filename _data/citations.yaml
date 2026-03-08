@@ -26,27 +26,6 @@
   - brain dynamics
   - neuro disorders
   - modeling
-- id: doi:10.31234/osf.io/qzv47_v1
-  title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
-    Network Interactions
-  authors:
-  - Dolly Tan Seeburger
-  - Jason Tsukahara
-  - Nan Xu
-  - Vishwadeep Ahluwalia
-  - Shella Keilholz
-  - Randall W Engle
-  publisher: Center for Open Science
-  date: '2025-10-02'
-  link: https://doi.org/hbcj4r
-  orcid: 0000-0002-3900-3220
-  nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - preprint
-  - brain dynamics
 - id: doi:10.1016/j.softx.2025.102067
   title: 'QPPLab: A generally applicable software package for detecting, analyzing,
     and visualizing large-scale quasiperiodic spatiotemporal patterns (QPPs) of brain
@@ -615,6 +594,27 @@
   - conference
   - causal interactions
   - modeling
+- id: doi:10.31234/osf.io/qzv47_v1
+  title: Trait-level Attention Control Emerges from Dynamic Frontoparietal Control
+    Network Interactions
+  authors:
+  - Dolly Tan Seeburger
+  - Jason Tsukahara
+  - Nan Xu
+  - Vishwadeep Ahluwalia
+  - Shella Keilholz
+  - Randall W Engle
+  publisher: Center for Open Science
+  date: '2025-10-02'
+  link: https://doi.org/hbcj4r
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
 - id: doi:10.1002/alz.061608
   title: "The effects of locus coeruleus stimulation on the BOLD global signal in\
     \ TgF344\u2010AD rats"
