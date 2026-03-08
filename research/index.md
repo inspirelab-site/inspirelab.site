@@ -6,7 +6,7 @@ nav:
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
-We work in the interphase of data science and brain science. We develop advanced models and innovative data science methodologies to elucidate brain function, neurological disorders, and other biological processes. By leveraging multimodal functional neuroimaging data—including fMRI-BOLD, LFP, optical imaging, and MEG—from animal models, healthy individuals, and patients, we decode complex brain activities and diseases. This integrative approach aims to provide groundbreaking insights that advance both fundamental understanding and translational applications in brain science, informatics, and beyond. Below are research themes we have been working on.
+We work in the interphase of data science and brain science. We develop advanced models and innovative data science methodologies to elucidate brain function, neurological disorders, and other biological processes. By leveraging multimodal functional neuroimaging data—including fMRI-BOLD, LFP/EEG, and optical imaging—from animal models, healthy individuals, and patients, we decode complex brain activities and diseases. This integrative approach aims to provide groundbreaking insights that advance both fundamental understanding and translational applications in brain science, informatics, and beyond. Below are research themes we have been working on.
 * [Modeling and Inferences in Causal Interactions among Brain Networks](#section-1) 
 * [Investigating Spatiotemporal Brain Dynamics across Species ](#section-2)
 * [Assessing Functional Brain Dynamics in Neurological Disorders](#section-3)
