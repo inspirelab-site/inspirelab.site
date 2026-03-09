@@ -44,22 +44,22 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields!
 - Dr. Nikolas Francis Lab @ University of Maryland, Department of Biology
 - Dr. Anna Li Lab @ University of Maryland, Department of Psychology
 - Dr. Edward Bernat Lab @ University of Maryland, Department of Psychology (Clinical and Cognitive Neuroscience Laboratory)
-- Keilholz MIND Lab @ Gatech-Emory, BME
-- Chuang's Lab @ Queensland Brain Institute
+<!-- - Keilholz MIND Lab @ Gatech-Emory, BME -->
+<!-- - Chuang's Lab @ Queensland Brain Institute-->
 - Dr. Evelyn Lake Group @ Yale School of Medicine, Radiology & Biomedical Imaging
 - Small Animal MR Facility @ University of Maryland, Brain and Behavior Institute
-- Center for Translational Research in Neuroimaging and Data Science
+<!-- - Center for Translational Research in Neuroimaging and Data Science -->
 - Dr. Jason Allen Group @ Indiana University Medical School, Radiology & Imaging Science; Emory Med School, Radiology
 - Dr. Rupa Radhakrishnan Group @ Indiana University Medical School, Radiology & Imaging Science
 - Dr. Ellen Schur Group @ University of Washington Medicine Diabetes Institute 
-- CoNTRoL Lab @ Gatech, Psychology
-- Attention & Working Memory Lab @ Gatech, Psychology
-- Lab of Brain and Cognition @ McGill University, Neurology and Neurosurgery
-- Doerschuk Lab @ Cornell, ECE, BME
-- Dr. Dan Barbasch Group @ Cornell, Mathematics
-- Dr. John E Johnson Group @ Scripps Research Institute, Structural Virology
-- The Veesler Lab @ University of Washington, Biochemistry 
-- Sam Larson (Independent Collaborator) Software Engineer @ YipitData
+<!-- - CoNTRoL Lab @ Gatech, Psychology -->
+<!-- - Attention & Working Memory Lab @ Gatech, Psychology -->
+<!-- - Lab of Brain and Cognition @ McGill University, Neurology and Neurosurgery -->
+<!-- - Doerschuk Lab @ Cornell, ECE, BME -->
+<!-- - Dr. Dan Barbasch Group @ Cornell, Mathematics -->
+<!-- - Dr. John E Johnson Group @ Scripps Research Institute, Structural Virology -->
+<!-- - The Veesler Lab @ University of Washington, Biochemistry  -->
+<!-- - Sam Larson (Independent Collaborator) Software Engineer @ YipitData -->
 
 {% include section.html %}
 
