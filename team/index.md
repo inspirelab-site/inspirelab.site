@@ -40,7 +40,7 @@ Nan earned a B.S. in Electrical and Computer Engineering and a B.A. in Mathemati
 
 {% include section.html background="images/background.jpg" dark=true %}
 ## Collaborators
-INSPIRE Lab benefits from our talented collaborators from diverse fields around the world.
+INSPIRE Lab benefits from our talented collaborators from diverse fields!
 - Dr. Nikolas Francis Lab @ University of Maryland, Department of Biology
 - Dr. Anna Li Lab @ University of Maryland, Department of Psychology
 - Dr. Edward Bernat Lab @ University of Maryland, Department of Psychology (Clinical and Cognitive Neuroscience Laboratory)
