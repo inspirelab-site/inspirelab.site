@@ -50,7 +50,8 @@ INSPIRE Lab benefits from our talented collaborators from diverse fields!
 - Small Animal MR Facility @ University of Maryland, Brain and Behavior Institute
 <!-- - Center for Translational Research in Neuroimaging and Data Science -->
 - Dr. Jason Allen Group @ Indiana University Medical School, Radiology & Imaging Science; Emory Med School, Radiology
-- Dr. Rupa Radhakrishnan Group @ Indiana University Medical School, Radiology & Imaging Science
+<!-- - Dr. Rupa Radhakrishnan Group @ Indiana University Medical School, Radiology & Imaging Science -->
+- Dr. Rupa Radhakrishnan @ University of Pittsburgh Medical Center, Pediatric Radiology
 <!-- - Dr. Ellen Schur Group @ University of Washington Medicine Diabetes Institute -->
 <!-- - CoNTRoL Lab @ Gatech, Psychology -->
 <!-- - Attention & Working Memory Lab @ Gatech, Psychology -->
