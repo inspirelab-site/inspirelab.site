@@ -4,17 +4,18 @@ image: team/images/jacob-kang.jpg
 role: undergrad
 description: "Undergraduate Researcher"
 start: Nov 2025
-affiliation: "Computer Science, Mathematics"
+affiliation: "Fischell Department of Bioengineering"
 brief-desc:  "University of Maryland, College Park"
 group: member
 links:
   email: jkang115@umd.edu
   linkedin: jacob-kang-339029250
   google-scholar: opKB0pYAAAAJ
-  # orcid: 
+  orcid: 0009-0002-6581-9829 
   github: mdsnpr
   # twitter:   
-  # cv: 
+  cv: assets/cv-jk.pdf 
   # faculty-page: 
 ---
-Jacob is a senior at the University of Maryland studying Computer Science and Mathematics. He’s interested in using machine learning and mathematical methods to analyze neural data like EEG and fMRI, with a focus on understanding spatio-temporal nonstationary patterns in the brain. He has worked on EEG-based dementia classification and is also exploring mathematical modeling in epidemiology. Outside of research, Jacob enjoys bowling, cooking, and meditation.
+
+Hi, I am Jacob Kang, an incoming Ph.D. student in the INSPIRE Lab. I received my B.S. degree in Computer Science and Mathematics: Statistics from the University of Maryland, College Park, and am continuing my studies in the Bioengineering Ph.D. program at the University of Maryland. My research interests lie at the intersection of computational neuroscience, machine learning, and neuroimaging. I am interested in developing computational methods to uncover latent neural representations and nonstationary brain dynamics from multimodal neuroimaging data. In the long term, I hope to better understand how distributed neural systems generate, regulate, and transition between cognitive and affective states across species and modalities.
