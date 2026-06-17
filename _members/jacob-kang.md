@@ -11,7 +11,7 @@ links:
   email: jkang115@umd.edu
   linkedin: jacob-kang-339029250
   google-scholar: opKB0pYAAAAJ
-  # orcid: 
+  # orcid: 0009-0002-6581-9829
   github: mdsnpr
   # twitter:   
   # cv: 
