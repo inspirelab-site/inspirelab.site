@@ -6,14 +6,12 @@
   position: relative;
   display: inline-flex;
   justify-content: center;
-  align-items: left;
+  align-items: center;
   flex-direction: column;
-  margin: 10px;
-  margin-bottom: 0;
-  width: 190px;
-  max-width: calc(100% - 0px - 0px);
+  margin: 20px;
+  width: 175px;
+  max-width: calc(100% - 20px - 20px);
   text-decoration: none;
-  font-size: 100%;
 }
 
 .portrait[data-style=small] {
@@ -34,7 +32,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 115%;
   width: calc(20px + 10%);
   aspect-ratio: 1/1;
   border-radius: 999px;
@@ -73,7 +70,6 @@
 
 .portrait[data-style=tiny] .portrait-description,
 .portrait[data-style=tiny] .portrait-affiliation {
-  white-space: pre-wrap;
   display: none;
 }
 
