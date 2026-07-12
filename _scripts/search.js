@@ -13,6 +13,8 @@
   // tags element
   const tagSelector = ".tag";
 
+  const exclusiveTagGroup = ["preprint", "journal", "conference"];
+
   // split search query into terms, phrases, and tags
   const splitQuery = (query) => {
     // split into parts, preserve quotes
@@ -153,10 +155,21 @@
   const updateTags = (query) => {
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
-      // set active if tag is in query
-      if (tags.includes(normalizeTag(tag.innerText)))
+      const tagText = normalizeTag(tag.innerText);
+      if (tags.includes(tagText)) {
         tag.setAttribute("data-active", "");
-      else tag.removeAttribute("data-active");
+        tag.removeAttribute("data-dimmed");
+      } else {
+        tag.removeAttribute("data-active");
+        if (
+          exclusiveTagGroup.includes(tagText) &&
+          tags.some((t) => exclusiveTagGroup.includes(t))
+        ) {
+          tag.setAttribute("data-dimmed", "");
+        } else {
+          tag.removeAttribute("data-dimmed");
+        }
+      }
     });
   };
 
@@ -226,8 +239,18 @@
 
     const { terms, phrases, tags } = splitQuery(current);
     const index = tags.indexOf(tag);
-    if (index === -1) tags.push(tag);
-    else tags.splice(index, 1);
+
+    if (index === -1) {
+      if (exclusiveTagGroup.includes(tag)) {
+        exclusiveTagGroup.forEach((t) => {
+          const i = tags.indexOf(t);
+          if (i !== -1) tags.splice(i, 1);
+        });
+      }
+      tags.push(tag);
+    } else {
+      tags.splice(index, 1);
+    }
 
     const newQuery = [
       ...terms,
