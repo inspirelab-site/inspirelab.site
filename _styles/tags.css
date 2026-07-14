@@ -30,4 +30,17 @@
   background: var(--light-gray);
 }
 
+.tag[data-tag=preprint],
+.tag[data-tag=journal],
+.tag[data-tag=conference] {
+  background: var(--secondary);
+  border: 1.5px solid;
+}
+
+.tag[data-tag=preprint],
+.tag[data-tag=journal],
+.tag[data-tag=conference] {
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=tags.css.map */
