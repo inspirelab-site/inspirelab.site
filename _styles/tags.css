@@ -33,14 +33,17 @@
 .tag[data-tag=preprint],
 .tag[data-tag=journal],
 .tag[data-tag=conference] {
-  background: var(--secondary);
-  border: 1.5px solid;
+  background: #e4d4fa;
+  color: #6d28d9;
 }
 
-.tag[data-tag=preprint],
-.tag[data-tag=journal],
-.tag[data-tag=conference] {
-  font-weight: 700;
+.tag[data-tag=preprint]:hover,
+.tag[data-tag=journal]:hover,
+.tag[data-tag=conference]:hover,
+.tag[data-tag=preprint][data-active],
+.tag[data-tag=journal][data-active],
+.tag[data-tag=conference][data-active] {
+  background: #d6bff5;
 }
 
 /*# sourceMappingURL=tags.css.map */
