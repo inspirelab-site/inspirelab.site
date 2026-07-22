@@ -11,6 +11,8 @@
   - Shella D. Keilholz
   - Randall W. Engle
   publisher: Proceedings of the National Academy of Sciences
+  pmid: '42081721'
+  pmcid: PMC13167721
   date: '2026-05-04'
   link: https://doi.org/hb4mjn
   orcid: 0000-0002-3900-3220
@@ -35,6 +37,8 @@
   - Evelyn Lake
   - Nan Xu
   publisher: openRxiv
+  pmid: '41959056'
+  pmcid: PMC13060110
   date: '2026-03-31'
   link: https://doi.org/hbvg32
   orcid: 0000-0002-3900-3220
@@ -60,6 +64,8 @@
   - Nan Xu
   - Maysam Nezafati
   publisher: Brain Imaging and Behavior
+  pmid: '41886027'
+  pmcid: PMC13021814
   date: '2026-03-26'
   link: https://doi.org/hbt82b
   orcid: 0000-0002-3900-3220
@@ -84,6 +90,8 @@
   - Nan Xu
   - Evelyn M.R. Lake
   publisher: openRxiv
+  pmid: '41929218'
+  pmcid: PMC13042064
   date: '2026-03-26'
   link: https://doi.org/hbt82c
   orcid: 0000-0002-3900-3220
@@ -107,6 +115,8 @@
   - Vince D. Calhoun
   - Shella D. Keilholz
   publisher: openRxiv
+  pmid: '41958996'
+  pmcid: PMC13060345
   date: '2026-02-17'
   link: https://doi.org/hbptzh
   orcid: 0000-0002-3900-3220
@@ -137,6 +147,8 @@
   - Xiaodi Zhang
   - Shella Keilholz
   publisher: SoftwareX
+  pmid: '39973967'
+  pmcid: PMC11839147
   date: '2025-02-01'
   link: https://doi.org/g83xt7
   orcid: 0000-0002-3900-3220
@@ -164,6 +176,8 @@
   - David Weinshenker
   - Shella Keilholz
   publisher: Imaging Neuroscience
+  pmid: '40800407'
+  pmcid: PMC12290871
   date: '2024-01-01'
   link: https://doi.org/g79q3n
   orcid: 0000-0002-3900-3220
@@ -191,6 +205,8 @@
   - E. H. Schumacher
   - Shella Keilholz
   publisher: Frontiers in Systems Neuroscience
+  pmid: '39157289'
+  pmcid: PMC11327057
   date: '2024-08-02'
   link: https://doi.org/gt7vkg
   orcid: 0000-0002-3900-3220
@@ -214,6 +230,8 @@
   - Shella D. Keilholz
   - Eric H. Schumacher
   publisher: Cognitive, Affective, &amp; Behavioral Neuroscience
+  pmid: '38253775'
+  pmcid: PMC10979291
   date: '2024-01-22'
   link: https://doi.org/gt44tf
   orcid: 0000-0002-3900-3220
@@ -236,6 +254,8 @@
   - Nan Xu
   - Shella Keilholz
   publisher: Magnetic Resonance in Medicine
+  pmid: '37582301'
+  pmcid: PMC10543609
   date: '2023-08-15'
   link: https://doi.org/gt44nf
   orcid: 0000-0002-3900-3220
@@ -259,6 +279,8 @@
   - Eric H. Schumacher
   - Shella D. Keilholz
   publisher: Imaging Neuroscience
+  pmid: '37701786'
+  pmcid: PMC10494556
   date: '2023-08-01'
   link: https://doi.org/gt44ng
   orcid: 0000-0002-3900-3220
@@ -299,6 +321,8 @@
   - Kai-Hsiang Chuang
   - Shella D. Keilholz
   publisher: Aperture Neuro
+  pmid: '37654427'
+  pmcid: PMC10469192
   date: '2023-08-09'
   link: https://doi.org/gt44nh
   orcid: 0000-0002-3900-3220
@@ -337,6 +361,8 @@
   - Wen-Ju Pan
   - Shella Keilholz
   publisher: Frontiers in Neuroscience
+  pmid: '35350561'
+  pmcid: PMC8957796
   date: '2022-03-08'
   link: https://doi.org/gtdtsw
   orcid: 0000-0002-3900-3220
@@ -383,6 +409,7 @@
   - Shella D. Keilholz
   - R. Nathan Spreng
   publisher: NeuroImage
+  pmid: '33316394'
   date: '2021-02-01'
   link: https://doi.org/gsx2rt
   orcid: 0000-0002-3900-3220
@@ -413,6 +440,8 @@
   - Theodore J. LaGrow
   - Ying Guo
   publisher: Frontiers in Neuroscience
+  pmid: '33041756'
+  pmcid: PMC7522447
   date: '2020-09-15'
   link: https://doi.org/gt44nm
   orcid: 0000-0002-3900-3220
@@ -430,6 +459,7 @@
   - Nan Xu
   - Peter C. Doerschuk
   publisher: IEEE Transactions on Image Processing
+  pmid: '31095482'
   date: '2019-11-01'
   link: https://doi.org/gmddq4
   orcid: 0000-0002-3900-3220
@@ -459,6 +489,8 @@
   - Dhaval S Patel+
   - Hang Lu
   publisher: Lab Animal
+  pmid: '31217565'
+  pmcid: PMC8102135
   date: '2019-06-19'
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8102135/
   orcid: 0000-0002-3900-3220
@@ -484,6 +516,7 @@
   - Peter C. Doerschuk
   - John E. Johnson
   publisher: Journal of Structural Biology
+  pmid: '29331608'
   date: '2018-05-01'
   link: https://doi.org/gdc4w6
   orcid: 0000-0002-3900-3220
@@ -506,6 +539,8 @@
   - R. Nathan Spreng
   - Peter C. Doerschuk
   publisher: Frontiers in Neuroscience
+  pmid: '28559793'
+  pmcid: PMC5433247
   date: '2017-05-16'
   link: https://doi.org/gt44mv
   orcid: 0000-0002-3900-3220
@@ -535,6 +570,7 @@
   - Peter C. Doerschuk
   publisher: IEEE Engineering In Medicine And Biology Society Annual International
     Conference
+  pmid: '28269156'
   date: '2016-08-01'
   link: https://ieeexplore.ieee.org/document/7591598
   orcid: 0000-0002-3900-3220
@@ -561,6 +597,7 @@
   - Tatiana Domitrovic
   - John E Johnson
   publisher: Current Opinion in Virology
+  pmid: '27085980'
   date: '2016-06-01'
   link: https://doi.org/gt44ms
   orcid: 0000-0002-3900-3220
