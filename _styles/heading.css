@@ -46,4 +46,8 @@ h6 {
   color: var(--light-gray);
 }
 
+.no-underline {
+  border-bottom: none;
+}
+
 /*# sourceMappingURL=heading.css.map */
