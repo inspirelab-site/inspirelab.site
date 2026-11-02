@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s42003-026-11228-2
+  title: Cortex-wide neuronal dynamics underpin quasi-periodic patterns in resting-state
+    fMRI
+  authors:
+  - Francesca Mandino
+  - Xilin Shen
+  - Corey Horien
+  - Xenophon Papademetris
+  - Stephen M. Strittmatter
+  - Shella D. Keilholz
+  - Nan Xu
+  - Evelyn M. R. Lake
+  publisher: Communications Biology
+  date: '2026-11-01'
+  link: https://doi.org/hcqz76
+  orcid: 0000-0002-3900-3220
+  nan-xu-list: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1073/pnas.2526828123
   title: Attention control ability is associated with frontoparietal control network
     interactions
