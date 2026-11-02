@@ -1,6 +1,6 @@
 ---
 title: IEEE Brain Workshop 2026
-image: images/ieee-brain-workshop-2026.png
+image: images/blog/ieee-brain-workshop-2026.png
 author: nirmal-shiju
 tags:
   - news

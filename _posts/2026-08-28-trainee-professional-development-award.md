@@ -1,6 +1,6 @@
 ---
 title: Trainee Professional Development Award
-image: images/society-for-neuroscience.png
+image: images/blog/society-for-neuroscience.png
 author: colin-kurniawan
 tags:
   - news
