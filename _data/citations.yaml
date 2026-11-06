@@ -97,32 +97,6 @@
   - journal
   - brain dynamics
   - causal interactions
-- id: doi:10.64898/2026.03.26.713939
-  title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
-    patterns in resting-state fMRI'
-  authors:
-  - Francesca Mandino
-  - Xilin Shen
-  - Corey Horien
-  - Xenophon Papademetris
-  - Stephen M. Strittmatter
-  - Shella D. Keilholz
-  - Nan Xu
-  - Evelyn M.R. Lake
-  publisher: openRxiv
-  pmid: '41929218'
-  pmcid: PMC13042064
-  date: '2026-03-26'
-  link: https://doi.org/hbt82c
-  orcid: 0000-0002-3900-3220
-  nan-xu-list: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  tags:
-  - preprint
-  - brain dynamics
-  - cross-species
 - id: doi:10.64898/2026.02.15.706049
   title: 'Time-resolved directional organization of brain networks: distinct strength
     and temporal signatures from neurophysiology to disease'
@@ -779,6 +753,30 @@
   - brain dynamics
   - theory
   - neuro AI/ML
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.64898/2026.03.26.713939
+  title: 'Harmonizing brain rhythms: cortex-wide neuronal dynamics underpin quasi-periodic
+    patterns in resting-state fMRI'
+  authors:
+  - Francesca Mandino
+  - Xilin Shen
+  - Corey Horien
+  - Xenophon Papademetris
+  - Stephen M. Strittmatter
+  - Shella D. Keilholz
+  - Nan Xu
+  - Evelyn M.R. Lake
+  publisher: openRxiv
+  pmid: '41929218'
+  pmcid: PMC13042064
+  date: '2026-03-26'
+  link: https://doi.org/hbt82c
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
+  - cross-species
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1002/alz.061608
