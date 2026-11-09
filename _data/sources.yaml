@@ -13,6 +13,15 @@
 #     - open science
 #     - other (e.g., recognition)
 
+#Zhao-pre2-2026
+- id: doi:10.48550/ARXIV.2611.04041
+  date: 2026-11-02
+  type: journal
+  tags:
+    - preprint
+    - brain dynamics
+    - neuro AI/ML
+
 #Zhao-pre-2026
 - id: doi:10.48550/ARXIV.2609.12890
   date: 2026-09-11
@@ -72,6 +81,10 @@
 #Mandino-QPP-2026
 - id: doi:10.1038/s42003-026-11228-2
   type: journal
+  buttons:
+    - type: source
+      text: code
+      link: https://github.com/GT-EmoryMINDlab/QPPLab
   tags:
   - journal
   - brain dynamics
