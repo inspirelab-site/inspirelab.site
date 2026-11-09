@@ -1,37 +1,14 @@
-#! /bin/bash
+#!/bin/bash
+set -euo pipefail
 
-# name of image
-IMAGE=lab-website-renderer:latest
+# Resolve paths from this script, so it also works outside the repository root.
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+COMPOSE_FILE="${SCRIPT_DIR}/compose.yaml"
 
-# name of running container
-CONTAINER=lab-website-renderer
-
-# choose platform flag
-PLATFORM=""
-
-# default vars
-DOCKER_RUN="docker run"
-WORKING_DIR=$(pwd)
-
-# fix windows faux linux shells/tools
-if [[ $OSTYPE == msys* ]] || [[ $OSTYPE == cygwin* ]]; then
-    DOCKER_RUN="winpty docker run"
-    WORKING_DIR=$(cmd //c cd)
+# Compose Watch synchronizes edits without a Docker Desktop project bind mount.
+if (( $# )); then
+    docker compose --file "$COMPOSE_FILE" build preview
+    exec docker compose --file "$COMPOSE_FILE" run --rm --service-ports preview "$@"
+else
+    exec docker compose --file "$COMPOSE_FILE" up --build --watch
 fi
-
-# build docker image
-docker build ${PLATFORM} \
-    --tag ${IMAGE} \
-    --file ./.docker/Dockerfile . && \
-
-# run built docker image
-${DOCKER_RUN} ${PLATFORM} \
-    --name ${CONTAINER} \
-    --init \
-    --rm \
-    --interactive \
-    --tty \
-    --publish 4000:4000 \
-    --publish 35729:35729 \
-    --volume "${WORKING_DIR}:/usr/src/app" \
-    ${IMAGE} "$@"

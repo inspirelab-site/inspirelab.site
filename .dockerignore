@@ -1,0 +1,15 @@
+.git
+.github
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_site
+_cite/.cache
+**/__pycache__
+**/.DS_Store
+.env*
+.aws
+.codex
+.agents
+node_modules
+vendor

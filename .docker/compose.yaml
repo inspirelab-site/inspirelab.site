@@ -1,0 +1,96 @@
+name: inspire-preview
+
+services:
+  preview:
+    build:
+      context: ..
+      dockerfile: .docker/Dockerfile
+    image: lab-website-renderer:latest
+    init: true
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    develop:
+      watch:
+        - action: sync
+          path: ../index.md
+          target: /usr/src/app/index.md
+        - action: sync
+          path: ../404.md
+          target: /usr/src/app/404.md
+        - action: sync
+          path: ../_data
+          target: /usr/src/app/_data
+        - action: sync
+          path: ../_members
+          target: /usr/src/app/_members
+        - action: sync
+          path: ../_collaborators
+          target: /usr/src/app/_collaborators
+        - action: sync
+          path: ../_posts
+          target: /usr/src/app/_posts
+        - action: sync
+          path: ../_includes
+          target: /usr/src/app/_includes
+        - action: sync
+          path: ../_layouts
+          target: /usr/src/app/_layouts
+        - action: sync
+          path: ../_styles
+          target: /usr/src/app/_styles
+        - action: sync
+          path: ../_scripts
+          target: /usr/src/app/_scripts
+        - action: sync
+          path: ../images
+          target: /usr/src/app/images
+        - action: sync
+          path: ../assets
+          target: /usr/src/app/assets
+        - action: sync
+          path: ../alumni
+          target: /usr/src/app/alumni
+        - action: sync
+          path: ../blog
+          target: /usr/src/app/blog
+        - action: sync
+          path: ../contact
+          target: /usr/src/app/contact
+        - action: sync
+          path: ../papers
+          target: /usr/src/app/papers
+        - action: sync
+          path: ../research
+          target: /usr/src/app/research
+        - action: sync
+          path: ../software
+          target: /usr/src/app/software
+        - action: sync
+          path: ../teach
+          target: /usr/src/app/teach
+        - action: sync
+          path: ../team
+          target: /usr/src/app/team
+        - action: sync+restart
+          path: ../_config.yaml
+          target: /usr/src/app/_config.yaml
+        - action: sync+restart
+          path: ../_plugins
+          target: /usr/src/app/_plugins
+        - action: rebuild
+          path: ../Gemfile
+        - action: rebuild
+          path: ../Gemfile.lock
+        - action: rebuild
+          path: ../_cite/cite.py
+        - action: rebuild
+          path: ../_cite/util.py
+        - action: rebuild
+          path: ../_cite/plugins
+        - action: rebuild
+          path: ../_cite/requirements.txt
+        - action: rebuild
+          path: ../.docker
+        - action: rebuild
+          path: ../.dockerignore

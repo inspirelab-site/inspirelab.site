@@ -1,27 +1,19 @@
-#! /bin/bash
+#!/bin/bash
 
-# print folder contents for debugging
-printf "\n\nContents:\n\n"
-ls
-
-# run cite process
+# Refresh the container's citation data before serving.
 python3 _cite/cite.py
 
-# run jekyll serve in hot-reload mode
-# rerun whenever _config.yaml changes (jekyll hot-reload doesn't work with this file)
-# Keep generated files off the host bind mount to avoid Docker Desktop file locks.
-watchmedo auto-restart \
-    --debug-force-polling \
-    --patterns="_config.yaml" \
-    --signal SIGTERM \
-    -- bundle exec jekyll serve --open-url --force_polling --livereload --trace --host=0.0.0.0 \
-    --destination /tmp/jekyll-site --disable-disk-cache \
-    | sed "s/LiveReload address.*//g;s/0.0.0.0/localhost/g" &
-
-# rerun cite process whenever _data files change
+# Recompile citations when source metadata is synchronized into the container.
 watchmedo shell-command \
     --debug-force-polling \
     --recursive \
     --wait \
     --command="python3 _cite/cite.py" \
-    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" \
+    --patterns="_data/sources*;_data/orcid*;_data/pubmed*;_data/google-scholar*" &
+
+# Compose Watch restarts the container for configuration/plugin changes.
+# Keep Jekyll in the foreground so build errors are visible and stop the preview.
+# Generated files stay inside Docker, away from macOS file-sharing locks.
+exec bundle exec jekyll serve \
+    --force_polling --livereload --trace --host=0.0.0.0 \
+    --destination /tmp/jekyll-site --disable-disk-cache
