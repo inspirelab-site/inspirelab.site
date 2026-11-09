@@ -70,12 +70,16 @@
   - neuro AI/ML
     
 #Mandino-QPP-2026
-- id: doi:10.64898/2026.03.26.713939 
+- id: doi:10.1038/s42003-026-11228-2
   type: journal
   tags:
-  - preprint
+  - journal
   - brain dynamics
   - cross-species
+
+# Exclude the superseded preprint if an importer returns it separately.
+- id: doi:10.64898/2026.03.26.713939
+  remove: true
     
 #Park-Entropy-review-2026
 - id: doi:10.1007/s11682-026-01124-y 
