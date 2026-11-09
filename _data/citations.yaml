@@ -9,12 +9,17 @@
   - David Simberg
   - Nan Xu
   publisher: arXiv
-  date: '2026-01-01'
+  date: '2026-11-02'
   link: https://doi.org/hcrvvt
   orcid: 0000-0002-3900-3220
   nan-xu-list: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  tags:
+  - preprint
+  - brain dynamics
+  - neuro AI/ML
 - id: doi:10.1038/s42003-026-11228-2
   title: Cortex-wide neuronal dynamics underpin quasi-periodic patterns in resting-state
     fMRI
@@ -35,6 +40,10 @@
   plugin: sources.py
   file: sources.yaml
   type: journal
+  buttons:
+  - type: source
+    text: code
+    link: https://github.com/GT-EmoryMINDlab/QPPLab
   tags:
   - journal
   - brain dynamics
