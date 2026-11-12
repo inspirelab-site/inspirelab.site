@@ -15,12 +15,14 @@
 
 #Zhao-pre2-2026
 - id: doi:10.48550/ARXIV.2611.04041
+  description: "> **IEEE Brain Workshop Travel Award**"
   date: 2026-11-02
   type: journal
   tags:
     - preprint
     - brain dynamics
     - neuro AI/ML
+    - recognition
 
 #Zhao-pre-2026
 - id: doi:10.48550/ARXIV.2609.12890
@@ -463,7 +465,7 @@
 
 - #id: nebec2026
   title: "Task-sensitivity and subcortical propagation of patterned spatiotemporal neural activity"
-  description: "> **Oral Presentation.**"
+  description: "> **Oral Presentation**"
   authors:
     - Archana Sathiyamoorthy 
     - Matthew Wang
