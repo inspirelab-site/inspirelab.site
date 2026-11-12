@@ -15,11 +15,13 @@
   nan-xu-list: true
   plugin: sources.py
   file: sources.yaml
+  description: '> **IEEE Brain Workshop Travel Award**'
   type: journal
   tags:
   - preprint
   - brain dynamics
   - neuro AI/ML
+  - recognition
 - id: doi:10.1038/s42003-026-11228-2
   title: Cortex-wide neuronal dynamics underpin quasi-periodic patterns in resting-state
     fMRI
@@ -873,7 +875,7 @@
   file: sources.yaml
 - title: Task-sensitivity and subcortical propagation of patterned spatiotemporal
     neural activity
-  description: '> **Oral Presentation.**'
+  description: '> **Oral Presentation**'
   authors:
   - Archana Sathiyamoorthy
   - Matthew Wang
