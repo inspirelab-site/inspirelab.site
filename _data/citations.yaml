@@ -15,7 +15,8 @@
   nan-xu-list: true
   plugin: sources.py
   file: sources.yaml
-  description: '> **IEEE Brain Workshop 2026 --- Travel Award (Conference Abstract)**'
+  description: "> **IEEE Brain Workshop 2026 \u2014-- Travel Award (Workshop Abstract\
+    \ Version)**"
   type: journal
   tags:
   - preprint
